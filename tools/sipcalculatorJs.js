@@ -103,7 +103,7 @@ validateReturnRate = (x) => {
     returnRate.style.borderColor="#000000";
     returnRate.style.borderWidth="1px";
     if(isFinite(amount.value) && isFinite(returnRate.value) && isFinite(timeY.value)){
-      document.getElementById("calculateEButton").disabled=false;
+      document.getElementById("calculateButton").disabled=false;
     }
   }
 };
